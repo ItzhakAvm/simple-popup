@@ -1,0 +1,22 @@
+{
+  "name": "itzhakavm/simple-popup",
+  "description": "An application that displays a simple popup.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Itzhak Avraham",
+      "email": "ItzhakAvm@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\":  "src/",
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": "^7.4.0",
+    "ext-json": "*"
+  }
+}

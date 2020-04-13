@@ -1,0 +1,125 @@
+/* BO Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Baloo Paaji 2', arial, sans-serif;
+    color: #555;
+}
+a {
+    display: inline-block;
+    color: #333;
+}
+/* EO Global */
+
+
+/* BO Width */
+.width-full {
+    width: 100%;
+}
+
+.width-half {
+    width: 50%;
+}
+/* EO Width */
+
+
+/* BO Height */
+.height-full {
+    height: 100%;
+}
+.height-half {
+    height: 50%;
+}
+/* EO Height */
+
+
+/* BO Padding */
+.p-1 {
+    padding: 10px;
+}
+/* EO Padding */
+
+
+/* BO Display */
+.display-flex {
+    display: flex;
+}
+.display-flex.justify-center {
+    justify-content: center;
+}
+.display-flex.align-center {
+    align-items: center;
+}
+
+.display-flex .flex-grow-1 {
+    flex-grow: 1;
+}
+/* EO Display */
+
+/* BO Positions */
+.fixed-left {
+    position: fixed;
+    left: 0;
+}
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+/* EO Positions */
+
+
+/* BO Background Colors */
+.bg-white {
+    background-color: #fff;
+}
+.bg-lightgray {
+    background-color: #eee;
+}
+/* EO Background Colors */
+
+
+/* BO Links */
+.link {
+    text-decoration: none;
+}
+.link.link-underline {
+    text-decoration: underline;
+}
+/* EO Links */
+
+
+/* BO Buttons */
+.button {
+    padding: 4px;
+    border: #333 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.button.button-info {
+    background-color: #007eff;
+    border-color: #0375e9;
+    color: #fff;
+}
+.button.button-large {
+    padding: 8px;
+    font-size: 18px;
+}
+/* EO Buttons */
+
+
+/* BO Popup */
+.popup {
+    display: none;
+}
+.popup .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup .content .content-container {
+    overflow-y: auto;
+    border-radius: 10px;
+}
+/* EO Popup */
